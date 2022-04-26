@@ -110,87 +110,104 @@
       },
       "40": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "41": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "42": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "43": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "44": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "45": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "46": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "47": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "48": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "49": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "50": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "51": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "52": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "53": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "54": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "55": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       },
       "56": {
         "GridRowColumnDefinition": {
-          "DesignLengthInPixel": 40.0
+          "DesignLengthInPixel": 40.0,
+          "IsHidden": true
         }
       }
     },
@@ -226,7 +243,8 @@
     "12,1": "매주 방문 횟수에 따라 카테고리와 사이트 순위가 변경됩니다.",
     "13,40": "주간 클릭 수 갱신용 카테고리 Listview",
     "19,54": "SUM",
-    "19,55": "요일"
+    "19,55": "요일",
+    "37,40": "%CurrentUser.UserName%"
   },
   "Formulas": {
     "8,51": "\"# \"&AP9",
@@ -270,7 +288,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "bd1d1756-b355-413f-b87c-d1028895049b"
+                  "Id": "1f7e1a65-10b7-4d28-b7ca-c46a40cd882c"
                 },
                 "CommandList": [
                   {
@@ -289,7 +307,7 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=즐겨찾기!K2"
                         },
-                        "Id": "1e4b2373-5a66-41ae-9e3e-9c4968a50619"
+                        "Id": "d3508584-0a6e-4ec6-a908-57ef11c1c4bb"
                       },
                       "Condition2": {
                         "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
@@ -302,18 +320,18 @@
                           "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                           "SerializeProperty": "=즐겨찾기!K2"
                         },
-                        "Id": "3129a459-2923-458f-a174-b035f8c07d56"
+                        "Id": "e66ae9f3-0395-4941-867b-2e5defa94804"
                       },
                       "RelationType": 1,
-                      "Id": "06603f26-2746-422d-87c1-218591bd163b"
+                      "Id": "308944b9-53c3-42f0-bfb7-d659a41087c9"
                     },
                     "Params": [
                       "=K2"
                     ],
-                    "ID": "855b0f5c5e484e3e8bca3103df5800d3"
+                    "ID": "7aaff66e2a9a4dea9c0ad49c16d0973c"
                   }
                 ],
-                "ID": "68590261-8403-43c2-8e86-797d22960f30"
+                "ID": "54916310-755c-4ff1-9ed3-a95a40668129"
               },
               {
                 "CommandList": [
@@ -322,7 +340,7 @@
                     "MessageFormula": "검색어를 입력해주세요."
                   }
                 ],
-                "ID": "eebdb116-2aaa-43da-b020-2a4d44c783cd"
+                "ID": "6ce4f8d1-c6e7-4207-8a32-77c8da534a2e"
               }
             ]
           }
@@ -733,15 +751,48 @@
         "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
-            "PopupDisplayMode": 2,
-            "PageName": "즐겨찾기 추가",
-            "PassValues": [
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
               {
-                "Source": "추가",
-                "TargetCell": {
-                  "SerializeProperty": "='즐겨찾기 추가'!I18"
-                }
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=즐겨찾기!AO38"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1,
+                  "Id": "339f6257-781f-4cb1-96e8-400772de1b0d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowPopupCommand, ServerDesignerCommon",
+                    "PopupDisplayMode": 2,
+                    "PageName": "즐겨찾기 추가",
+                    "PassValues": [
+                      {
+                        "Source": "추가",
+                        "TargetCell": {
+                          "SerializeProperty": "='즐겨찾기 추가'!I18"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "ID": "61307590-2f6f-46d8-b909-447fb03ffa39"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                    "MessageFormula": "데이터베이스 부하를 막기 위해 손님은 온라인 예제에서 즐겨찾기를 추가하실 수 없습니다. \r\n\r\n포건시 데모 포탈 사이트에서 메오 예제를 다운로드하시면 전체 기능을 사용해 보실 수 있습니다."
+                  }
+                ],
+                "ID": "df502609-8ab8-411d-bbf4-87aa1b595924"
               }
             ]
           }
@@ -781,6 +832,15 @@
         },
         "ImageSize": 25,
         "Space": 45
+      }
+    },
+    "39,40": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, ServerDesignerCommon",
+        "CellCustomValue": "%CurrentUser%",
+        "NavigateSettingWhenLogout": {
+          "NavigateWhenLogoutMode": 1
+        }
       }
     }
   },
@@ -2160,88 +2220,14 @@
     "1,10,2,15",
     "39,1,1,37",
     "6,1,5,37",
-    "21,40,2,17"
+    "21,40,2,17",
+    "39,40,1,5",
+    "37,40,2,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "MasterPageName": "FGC_유저마스터페이지",
     "PageLoadedCommandList": [
-      {
-        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
-        "LoopInfo": {
-          "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
-          "ListviewName": "주간클릭_사이트"
-        },
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "즐겨찾기_테이블",
-            "ShowConfirm": false,
-            "ConfirmText": "데이터를 업데이트하시겠습니까?",
-            "RowsToUpdate": 1,
-            "RowsToUpdateCondition": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "즐겨찾기_테이블",
-                "ColumnName": "ID"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=즐겨찾기!AO25"
-              },
-              "Id": "deceb036-3fb7-483e-aa2e-b927518f4c0d"
-            },
-            "UpdateValues": [
-              {
-                "ColumnName": "주_클릭",
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=즐겨찾기!AW25"
-                }
-              }
-            ]
-          }
-        ],
-        "Disabled": true
-      },
-      {
-        "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
-        "LoopInfo": {
-          "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
-          "ListviewName": "리스트뷰1"
-        },
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
-            "TableName": "카테고리_테이블",
-            "ShowConfirm": false,
-            "ConfirmText": "데이터를 업데이트하시겠습니까?",
-            "RowsToUpdate": 1,
-            "RowsToUpdateCondition": {
-              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-              "ColumnBindingInfo": {
-                "TableName": "카테고리_테이블",
-                "ColumnName": "ID"
-              },
-              "Value": {
-                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                "SerializeProperty": "=즐겨찾기!AO16"
-              },
-              "Id": "6a7d00ab-fea7-4127-826d-602e5e582e15"
-            },
-            "UpdateValues": [
-              {
-                "ColumnName": "주_클릭",
-                "Value": {
-                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
-                  "SerializeProperty": "=즐겨찾기!AW16"
-                }
-              }
-            ]
-          }
-        ],
-        "Disabled": true
-      },
       {
         "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
         "TargetTableName": "즐겨찾기_테이블",
@@ -2253,10 +2239,10 @@
             "ColumnName": "상태"
           },
           "Value": "삭제",
-          "Id": "22d23bf5-c571-456f-9be8-c70f628998bb"
+          "Id": "be7854be-9da8-4ada-9322-966989ab6941"
         },
         "Params": [],
-        "ID": "a67f35459cb74a479b07e8ef354cf106"
+        "ID": "cb77436a12924a2f9ef0b00fbb0cc2f5"
       },
       {
         "$type": "Forguncy.Model.SortCommand, ServerDesignerCommon",
@@ -2278,9 +2264,9 @@
               "Order": 0
             }
           ],
-          "Id": "5ab0d9d6-0eb3-485a-b99e-c312efa92320"
+          "Id": "11361367-5404-4b1d-8a9c-d930974ec9ab"
         },
-        "ID": "689e2f8c253f41e6b849cc48d415cb4c"
+        "ID": "3f277048f97a48cf9abe0416c061d398"
       },
       {
         "$type": "Forguncy.Model.SortCommand, ServerDesignerCommon",
@@ -2302,9 +2288,9 @@
               "Order": 0
             }
           ],
-          "Id": "79b26611-e482-48cd-a8d4-613780270b39"
+          "Id": "48ada70d-9846-4204-a9f9-e1b77c98fada"
         },
-        "ID": "e8eede67b2074ff686d0bd0b11a2c118"
+        "ID": "147ca259388d41fbb43616d9ec8c34d4"
       }
     ],
     "AuthorizeInfo": {
@@ -2328,4 +2314,4 @@
       "Formula": "즐겨찾기!$B$5"
     }
   ]
-}//SCmFZdVOUUlGgoekpzqoIeHg9RSOQEDGVWxqnGjnm4gOlW1cEpL5QYIaoOVI3yIsSKzRUNw4LsdO/obtk0V2QBJ/FO2Zx+M0m1MF9tKsPRleRlKWHwOnKFx5lEAPPhx5E9rzhYXB5U8RCCAdt9aMamY158TiXfTDUGHwkziFGLYb+icuNMpF7CnmGuVg30lqhSajUXgCa3v4LgMNUk/VKZ6swAw0mIYqLbuP6miaYXkTJ+by7WQqvmgotK2cB9D2ZIUM4JOOv2U27T+rD6eK4/c3tnnYrLiV59bcEZWDj/jbCP9FPGyzXOHQTLcI55tSrn0+yJrkNH9D3pY3s4XIiGxBNJh0NHPlNiNwmQ+BR9lCEA7k+JlRPBiyP2Lew30b21O94ixPbNMi++4KC/C8vgaRK956xmVoARue1eEBOLQH08Xin3WrrzUCCXvQBPn7eL648oVGZ2xEN4usCrSZxyivD/IlLohiIzZGL85h/Oe7DEfmHlsPEyTyqvtKh97CwaE5wSQ5JEeZv+9UKy3V2XRMmvWlOccB1kXV3WFNMGI5iaT7T1+Jcw9Md2YqNi7Mdi0J+Un95zya0ZFGnTYVvy44IMfPzjv5qH7AEh48tJhQBofztKI6EaZCOaB0irgovtNvRHTPN2EVWkvAZ2f9+4sboYxVsyUB1/8nZ6dF/JK0LzGO60Mma9QAWEzRctfpEPjoqQ65qk/+10u2mg2lSqpXgndxSi44DRFSwRPH/1Z8lVLS5heL9SdtA22y5LQpV/vKbjFfaogKYRbsAJV0ZYo7C+ToCYy+z5b/XDh9PrXoZEdnq8sb2XBuLVO4HR067PxLhq11EguxMLXbekTNgSPWmWI4H9OCUpwPL9kZly/oJCd8Bcd0sYbJE4Rny6vw66EzBUcM1NYSHbaz7FY55Q==|920
+}//3xIdmYg5cgD8DSs/0ekkatWPZ1P96FPvQfVMRmP3tqSBXL6kdHGCoEAoKaPhIv+/oFx2Ytmgoe/D+OjzhpgS2V0sLvVWLocqGy8WPG6vbodCd4lYCLmRMIyWDabeCeNqeRNUt0CoZnZz30otwUcGA5MTiymn0m+E74UL3/A/02cmbPpt2BbfPy3v3H9HAkHP8oZue+83V+cyrxMEGHy3tQ4d7cRujsnfXRaf31jnNZDkmKfMsJtsNeLNiI0hSJyS4CIZrZTDFgRxUBdG2BS2ew3ACeTIRTajllkppoUdPIzonreZLd+Fnx4tMvnlUz/2N/6qdVzBX9HpM9UVgW00Qlj+HQUSnrIbhOEmQ/cMdYZZ9lr6U90fAQZU6+0eU+LAZhQvKcVaLv1uHtOFqqPrd54CVRHFg24e+ApbRVgTHrhP/311umyg+FvW+bEldz6L7Tm/YSU4hHyCz2vX42qiSdtJ7Bl/Yo6/x1OcG4GAx4qI77AdutJhS7KBQ/ct/y+5MM1/eoGyGwV5AlXdMgV++eMtoAJr1Bt+guOFSvbubk0WbTWZnZkMyWrsu4ifN1KVKzFmgSEWKDtGcUzoSSYSD2NajqeOt7sXQy8Dh1fpaWVZOw/a841/d4wA117t1j+4VxNV4JoGAf2vUdy7e2ae3uEPc9P5/OnBJ6OiC/4D8hnASzF72PyMgdaE/sQlUqQ05fJSj2htXYxLHFEPMPwpeUPiVVSI3NH0AwRf7JLsmJn1jYoCOmzl4B8bfO/K56sjPy4vUBKKrTTAzDJ3Uq8FpzkPwyEMSFyKrMi3lTZxbRjiH2d0bsLGUAnriLsWsRtr/O0Ql1y6t8sclkZsaVOfXVkEbkz8iyXKkw60kxd+7cXeqs0dFdg3+XogGQ77tM+I96OWsVE0gIU1LsUYt7wsXA==|920

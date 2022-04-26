@@ -148,7 +148,7 @@
                     ]
                   },
                   "value": "모두",
-                  "Id": "dccc7a25-13bd-458a-84cf-e8bf0efa1754"
+                  "Id": "b31832e7-8b86-4c22-a3cf-e03a1e32c5aa"
                 },
                 "CommandList": [
                   {
@@ -162,13 +162,13 @@
                         "ColumnName": "카테고리"
                       },
                       "Value": "모두",
-                      "Id": "28b36fa6-f56d-49f4-be00-71b4855f7353"
+                      "Id": "fed43417-5a96-4855-b2fb-9e07f8f324f5"
                     },
                     "Params": [],
-                    "ID": "2a8d6d054b5543618fd4aa8298e49479"
+                    "ID": "d67969f4975247eabcdd7e6e78f26a72"
                   }
                 ],
-                "ID": "d5bccc63-207a-49c6-8b39-b69c188311f8"
+                "ID": "0c3f40ba-8300-46df-a327-fe9e2611d508"
               },
               {
                 "CommandList": [
@@ -187,7 +187,7 @@
                             ]
                           },
                           "value": "월",
-                          "Id": "9eb6e6f4-56d6-4baf-9f9c-ee7a1ab50c99"
+                          "Id": "a39254b6-36c9-4a73-83ca-d9bf50e92772"
                         },
                         "CommandList": [
                           {
@@ -213,7 +213,7 @@
                             ]
                           }
                         ],
-                        "ID": "0bf197c5-5566-4282-be66-c1978aa05f48"
+                        "ID": "54c86168-9a7c-4da0-8ae5-16988d3d64fb"
                       },
                       {
                         "Condition": {
@@ -227,7 +227,7 @@
                             ]
                           },
                           "value": "화",
-                          "Id": "d70fd2b9-83f6-439e-a05a-0277a589a138"
+                          "Id": "a095dd8a-c7eb-472b-ac46-542388ee6a6e"
                         },
                         "CommandList": [
                           {
@@ -253,7 +253,7 @@
                             ]
                           }
                         ],
-                        "ID": "2d12f434-69a8-4374-a0a6-897532223832"
+                        "ID": "a2eb89b1-1a01-435b-b0e1-e440588d2ba5"
                       },
                       {
                         "Condition": {
@@ -267,7 +267,7 @@
                             ]
                           },
                           "value": "수",
-                          "Id": "401667d1-4109-4aac-9ff2-c77df52236a6"
+                          "Id": "c63f345d-14e8-46d0-ae49-1f063cf4cd54"
                         },
                         "CommandList": [
                           {
@@ -293,7 +293,7 @@
                             ]
                           }
                         ],
-                        "ID": "d9bdd383-ec52-4af5-ad34-822938639750"
+                        "ID": "dc9b7a84-cc0e-4d31-a672-5ab639dd8e14"
                       },
                       {
                         "Condition": {
@@ -307,7 +307,7 @@
                             ]
                           },
                           "value": "목",
-                          "Id": "3090cabb-f023-446a-895c-abfb842c5e73"
+                          "Id": "3373e0cf-205a-4928-a629-a793308d7ddc"
                         },
                         "CommandList": [
                           {
@@ -333,7 +333,7 @@
                             ]
                           }
                         ],
-                        "ID": "c68f5655-20fc-4c14-b5d9-9af65978e6eb"
+                        "ID": "77cf391d-531c-48c8-9698-52512402d368"
                       },
                       {
                         "Condition": {
@@ -347,7 +347,7 @@
                             ]
                           },
                           "value": "금",
-                          "Id": "944eac05-7fd6-404c-8ff7-a3709a6a4c65"
+                          "Id": "da9574d5-e7f7-4099-ba11-c81dab806e93"
                         },
                         "CommandList": [
                           {
@@ -373,7 +373,7 @@
                             ]
                           }
                         ],
-                        "ID": "cf084441-dfe3-4c80-acf9-93a1b033f956"
+                        "ID": "96c940a1-d60a-48f5-bd2d-b433994932c1"
                       },
                       {
                         "Condition": {
@@ -387,7 +387,7 @@
                             ]
                           },
                           "value": "토",
-                          "Id": "42aaeb50-65fc-4ed0-99d7-e9619e831b9b"
+                          "Id": "06192d0d-de1f-4f76-bc94-6ea663b611cf"
                         },
                         "CommandList": [
                           {
@@ -413,7 +413,7 @@
                             ]
                           }
                         ],
-                        "ID": "a5a6405f-8bda-4ccd-a895-7f24128e9474"
+                        "ID": "e83d2ae3-0224-4923-94c3-6f1572822ce7"
                       },
                       {
                         "Condition": {
@@ -427,7 +427,7 @@
                             ]
                           },
                           "value": "일",
-                          "Id": "f6b83edb-dc5a-4bfd-923b-4488f78d3093"
+                          "Id": "3d74122f-4d31-4359-bf86-2d835ec1c7fe"
                         },
                         "CommandList": [
                           {
@@ -453,11 +453,11 @@
                             ]
                           }
                         ],
-                        "ID": "a8992de6-e1cb-4a72-a466-acfeb0887d7c"
+                        "ID": "7dad3c19-820a-4ad2-b2c0-6585d86a960b"
                       },
                       {
                         "CommandList": [],
-                        "ID": "e84274e3-31f3-4e3a-81c1-a73ef08478c1"
+                        "ID": "02c30ebd-8251-4364-b055-093d1ac5c4d9"
                       }
                     ]
                   },
@@ -490,15 +490,15 @@
                         "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                         "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!Q2"
                       },
-                      "Id": "68480f46-1e40-41b3-8e16-07f5d3d85b8e"
+                      "Id": "bc130f0b-245c-40bf-b671-1c1810936ce1"
                     },
                     "Params": [
                       "=Q2"
                     ],
-                    "ID": "444733374558462a9eda30010a22af2b"
+                    "ID": "0d37f553bc164fc4be87b239f5a62020"
                   }
                 ],
-                "ID": "71580c93-c00a-4330-ac7b-66d77529fdc1"
+                "ID": "98f06183-d94b-40ea-88a7-5b1016ee84ce"
               }
             ]
           }
@@ -621,4 +621,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//INloiYI4IrezyBmd9d4QzEnMAPAUULJBqHZAQHc2+7JvrqL+ZzhPhheL+v8TKs214cohyYRX8eoD8IB0d4eYIDm1PFUKbo+6T3uUYRvvyHYxBsp4Lif5XQgCe9ncYNMF+Q2X1e7EWpSvqgrWbr6d4F3+GN8f7uBmQN2VLH+UGnJhD8Ga/xkuTByP40w1DHR1v6aiNQXHvL3iMLtUwgRqG8z4QpwfxlUhg8IC+ThxBZWLThULO9Q769BPEAxgM+ZeazxLcNFxdSkQomPv704ElqsztBZe18njBTskDBm2UD09rMd+9+0iTWbY4TGcHQv+DAfpO6ZOLDO9yRuf64bFcAS8486yLhUA4+bTRwdroB/6OqHPDHGbp0/ks8PyC7eLcJdqE73X7MSaVGxa691Ch1BB3cr5olp/sFGSIpaPbn+EVfLidpPf3i+EDBGKRf2t4UQV7f1Y/kNOrj11C5Nvyz9Z2BtDLPnDXw+Sba1Aa97x89SWg7frj+ZzuL+B2yISx+OaNlfrXvnOG+M1y13ViYU7Kllc8HlRnCXGsfMGAqTMcWqp3I+eMiFmfXDNg5B/X1j0p1zsJoxutXkxaTQj8ar5ArM2scOAHq+SgP9H/bUbraQOYFRvORqkXY+XyoItjREHK5bHoKgF9NGgyE6A2awTgEcwPlmPVLZuu+X40NEj0NiKlwCjk+WuJmiBKF6chmGWzlro3NKnvcKu5FbR4S4MQux0mZgSt0IC++ciNA+DxYjT2LtM056WzSZ+tb7ymxMWKMMFOuIoj2rodg976ic+ryReA6CMPVSW7TnTFUokta0lNW8NhcKG6Qu28VXbmj+auNqvSKm2YHoob/vNihKPT3qgQBDqmWCXawr3YVMlRhuOk7OihWwnPJawZ6bnRzlTwz+btmvDLwPtvOfrQA==|920
+}//8sEgjl2D76uq6DQwD45g/GJFrwdZiZ8pt4fUkosvoTQVfoKVuiWegwNz+86z9y1mlVTFdJr2ZLuN3yQS8I9JNrCTHqj3UYZL8oEBVwEKX7vHflxO6YonX7LC4V/uIc611Mbiq6DjLar8XSbnVDmneFFVVzRuDyJohQzm1Ywz1+VzjP0gYArSx/29tjuVFB9FADZsS/cmEK0qGbPVYdbqr2Ev4s+OVXDWag8isumMO4ldOlgFHorbyWrajyS/GyEWf/+A74+s28T0g+1fq4+3c3ueyQLDPrpRHQO5lfX9VYKXDlDfSLbV7L6ViQGS9R+gkTjV9ow3ySBinl2RPhKqb00P0t38+3Qc8jgyGfiNjSx9PKxg9c2OZ1POOF0PNXQDiGVgFMfbojLRSZYPEybP4vFKMsvKxAZY6IRUV6ZJ664CTzWny868TkfJqwUgEr140IsY4p4iZAqCgUQ8nuK46qkT1A5B0Iy5rHN4PStIVDuGwr/SnDbO/YI5PEbHwDNEBJVl7swxwe90M71LTl64UuvgJNwHBCe5pt25irneMUc8jI5OOmhRBIwIBjoJyUWmwu5N9l1RT7blOKbQZ8wbKdNWPuxgBZPuZzGpw7BjiE/uP+i729+oi1HxZRcg8DA2ZF6nKSNZa/OV1n+GAbQyx6Cwn+lbfL1Ve7NugkoCUhzyUPUf0ytpEBBBIAuzWUBPnB3OT52yrp8tlWNLdsOCcjwpvwkZQclasOWUekIHjc2Tns7nmmrZ4LE4hGf2BLdsH9nHUQLsCOvOnX4H3l5Vk3NKQ1uKNCrOdOqWoefdvVg0mtA4f31NB/psDOc5W5XgohZExeKLQIGNr8e+F0D9atToSUrAv1rr0wc4BkYWoSf/XBbOl6vg15HrHnDzzF2+Z9Vp1YoC7ntSStbk1Mbi6w==|920

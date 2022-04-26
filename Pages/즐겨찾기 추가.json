@@ -236,7 +236,22 @@
         ],
         "Text": "카테고리 추가",
         "AutoExecute": true,
-        "TemplateKey": "_RS_Outline_Style7"
+        "TemplateKey": "_RS_Outline_Style7",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "14,1": {
@@ -281,7 +296,7 @@
             "ColumnName": "카테고리명"
           },
           "Value": "모두",
-          "Id": "0e2b9d8b-6c3e-4554-bc77-aa56c6b40e16"
+          "Id": "73980380-98ec-452a-8981-83c9d6411754"
         }
       },
       "BindingInfo": {
@@ -309,7 +324,7 @@
                     ]
                   },
                   "value": "추가",
-                  "Id": "d34fceb7-c351-42dd-b266-86bceb3ad161"
+                  "Id": "5d84f462-14d5-4d27-b841-b2c1c99b5786"
                 },
                 "CommandList": [
                   {
@@ -333,7 +348,7 @@
                     ]
                   }
                 ],
-                "ID": "1642b4e5-f1b5-4083-a438-1809e0afee32"
+                "ID": "c331c9d4-5c03-4ba9-b9da-953d39457d92"
               },
               {
                 "Condition": {
@@ -347,7 +362,7 @@
                     ]
                   },
                   "value": "편집",
-                  "Id": "c2202568-de00-47f5-886d-11022716f03b"
+                  "Id": "b88bc6e4-31aa-4415-a92a-cef0e9df05b2"
                 },
                 "CommandList": [
                   {
@@ -358,7 +373,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "50a576e8-bedc-4845-8369-cb730cbdfeda"
+                "ID": "4564f722-1a8d-4f7f-a1b0-d29fe2bed544"
               }
             ]
           },
@@ -370,7 +385,22 @@
           }
         ],
         "AutoExecute": true,
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "17,14": {
@@ -623,7 +653,7 @@
                 ]
               },
               "value": "편집",
-              "Id": "79bc57f9-a94d-4c28-8bf0-ed0c6e71b935"
+              "Id": "1321e324-040c-4659-bab3-6336dc69190b"
             },
             "CommandList": [
               {
@@ -639,7 +669,7 @@
                 ]
               }
             ],
-            "ID": "c7f055f2-51eb-4508-92d0-0ed65b0e1b3f"
+            "ID": "910026df-9780-4a48-a0d5-5d013c286f68"
           }
         ]
       }
@@ -655,4 +685,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//zoivny6+8DyDl13aFuG3kaQ+6IH480wgV7FXNsIYkB9BaU2WYNFpDUQeQvxKT2z165nkBGdnw+mD9e2NRmqSOnuMDB2a1kfkZZnDXUMWFKDcLtG5/4Tz87Re1mEHfusgfsa8X+c9LOeYx1xmVbzzM17L2KxrYJXb2+fwb/7ux3bQNQZPWNvpTn07dMvDXdGChSX4Yc8aPkh123TkLaXJ/XHkbRTU/bjhK+XsmsaBj8EQAkRM7oz0AKWR8iJuSZIoyUwYp0jL/mkJekzWvIC6fFMDthHVnaJsOzWFPK+VPcm/Z/UhLuE+nEYK4xP9wuqfxUYMR3dMPfEh6qWDTYYNtX7q8IQO2QNaxABLpRBrVeBzydpC9bbzZlOidF/kH4+YGvF3dkJkQtYaVvIX4jjHjQkLtjIRWGREvItjXLyW8rAe8WNCvqOmNMCqsLaeDxjvVkIYYG4DnDfJ81KDJ2wiWnjVxf0OxG2jimf5TgHthriWaBfc/tK220+ulj1k3/27N+9EOnu1buZG1O4ElrlBh7LlD9TbY9zZp+ghZrUb1in9wxS9na51i6bh45z3tP/XThBgSfCPOll8bqFQtLj4yaMDPr2rbEbbV3flWCaRhSiGouuM+dX3syIQ0XIl+WaUWyP7p4TvyRxj8iNHH8lXuAgQ9WbyIx7MU55XSFS/GOzc9N37FIQj4jR0PTdYTlacPPS/bjtXtJfxQKZQvnRJAfw5efoZR46R0SUrWHKS04c5WiwnsZfA6zGPMGEXifnq9iFbeYZYqekwscRM49yBLWefFChg/I+qEOj+R/c1Z5FyDdyJBphDVn/lfstXN6xiiS9CBPg/TffvAUJQJHAE/3EEClxdJCRSIy8yZ9oY4U164qICRyQupldBpHkwfq/R3BuOuauGPripdJ0SO6YvIA==|920
+}//0L5w3JM2qN8+XPZFajHVA1h78ohYINYpjS5qri0RtgrZ/OaQi5SgGASIKujwQb20P1cH5rvs+rgWkQmk1AR+Z37v/S3syHsIdYsHJIGkpqxR8KSVMj/r7A99VzG80U15hL8RfmlzJrR32BCKflKW6gZrDXXahV4OUSt3kmIKYq0MVV86CCabjCbTe88znvMS3eicnC0t4fNwK6kbxzh5wx3/ntvTOUWSleilHLXQehHBhhCwdHHMXvBlI/LZpEmywpV4sH74ogjqLuTqLkESQC3R7lJKEm5Ih7Tm2zFWf3KJqlHgpQY1Plo441L6TErHoQ67Wg9pSczLkm6q6o7EezZMB0lfvOaQHLni9KNUKK0UrzygDt8DT1n20ZMywue6Kwpaq2zh/Mi6v7BN8L2k462uN+a27uf1wVgrVqTSo5L8JZU2fNXIZ+u5cCByFM922tqB8SvjRTKvVXvR2ZCuaPujKuzbJXo6m4d9W7FqRaEh6AG0f14MiiASb9pFbVf4tK4B+2EnyrD6KE8rc0lnn0qMPbd1JbcmSK4FWvbN6WrE63cyJzmPUrTdiqT8hh1cUvJdfXS83+u/qvsiRg+C1ex0sJh677GNSe8weskm/AUAcMrS2mz344k5npgaBO9EXW0LYgso879q/ufg+9zOI+9f10Q5Dj5/Fpd7X5gXJik3eBN3hR0JzTb1szJYF4a8efj5mZ+7Tr0hJCGYw8C4JO/naRhBVekS2KFOINpFzV7tTnAWQFMlXz8OjVy34+mCMJwoslYqhPYC32jnm+IyIQEMJ5xxHRe3f54qxM4eRR+n6sCr5aKjCsm7dn+rmHXmInCLclxz+RDLyABSvhX6rbgWw0Zqimpe32HdDHkCPg8id/wXEFMHiviDUOrrHYWYNcJ3ewtXWEq7G2VVuuDvnQ==|920
