@@ -242,7 +242,8 @@
             "Scope": 2,
             "Enabled": true,
             "AllowRoles": [
-              "Administrator"
+              "Administrator",
+              "FGC_LoginUser"
             ]
           },
           {
@@ -296,7 +297,7 @@
             "ColumnName": "카테고리명"
           },
           "Value": "모두",
-          "Id": "73980380-98ec-452a-8981-83c9d6411754"
+          "Id": "994ddefd-8e4a-4819-b8d9-67b2e26978d9"
         }
       },
       "BindingInfo": {
@@ -324,7 +325,7 @@
                     ]
                   },
                   "value": "추가",
-                  "Id": "5d84f462-14d5-4d27-b841-b2c1c99b5786"
+                  "Id": "91fe5508-bebd-4c2e-854e-bfa7c227f6a3"
                 },
                 "CommandList": [
                   {
@@ -348,7 +349,7 @@
                     ]
                   }
                 ],
-                "ID": "c331c9d4-5c03-4ba9-b9da-953d39457d92"
+                "ID": "cb5d0b63-937c-42f9-b063-d2ca4207c225"
               },
               {
                 "Condition": {
@@ -362,7 +363,7 @@
                     ]
                   },
                   "value": "편집",
-                  "Id": "b88bc6e4-31aa-4415-a92a-cef0e9df05b2"
+                  "Id": "135e3c48-8c65-4ae4-8c6d-1324b2fc9d11"
                 },
                 "CommandList": [
                   {
@@ -373,7 +374,7 @@
                     "UpdateValues": []
                   }
                 ],
-                "ID": "4564f722-1a8d-4f7f-a1b0-d29fe2bed544"
+                "ID": "466ae876-bc62-4d9f-8480-0b32918b54b6"
               }
             ]
           },
@@ -391,7 +392,8 @@
             "Scope": 2,
             "Enabled": true,
             "AllowRoles": [
-              "Administrator"
+              "Administrator",
+              "FGC_LoginUser"
             ]
           },
           {
@@ -653,7 +655,7 @@
                 ]
               },
               "value": "편집",
-              "Id": "1321e324-040c-4659-bab3-6336dc69190b"
+              "Id": "33093ac1-5853-4afb-8002-45232d1fc9ac"
             },
             "CommandList": [
               {
@@ -669,7 +671,7 @@
                 ]
               }
             ],
-            "ID": "910026df-9780-4a48-a0d5-5d013c286f68"
+            "ID": "c53f4dfd-c424-4ef2-8874-99b2839d1cd7"
           }
         ]
       }
@@ -688,4 +690,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//zWxbg3TgNfNMid1eXVaX707R29v5HiiElbpKNiGmHze1kX+qpUSrf5RT1ECO6DWSqyXfbYUU73bC5q8C5on5asrNxJQPYIkIiL8EG6hpU+U4E3DyqqTwQU+rbyJmZGAkBcCFezRtC49gCvLxqj5kXwhn1HVGhhZogccA9iO+rIoMi+ano/USovKHwM1cpORUpyoYigu86ydfGYF7CIPsiymCRtMyogHQCcN1Vlnfa/PfqzgzGrxuLdLliiQHlXIBB2fHRgZDFR/euDZ6Hgh5u9QCKF62CKisr2OaK29icXLPb+zC7btcvI/O4aBmkVyLoXEcHZPUgOzR7dezpXHLEBljdVQOdpsfudaFsIDQ4E0yb0z3keBo1Hovj8DAxqRbsfbkXsjCSPvlzjCLOzzRFDhy4K+xvyhTZpWAh0F2rxyAoD/iO9yaUlTtUGJH0Gzk4Zx5feKPUWQaMHhRMcEUcmU0yepkd7cvQlwhAszL6vlmHWfz2DY2962QIVjuM3KjhBqD9p5+9cgBZZ48TAfLjKp8lvkt92zCFrcUNQtFeF0bnTeOoPCimxr2o8Jf3YmZ7sree833JWv6a4LS/hDO+PF+by3TVvk9tbq8mAU9MO+SdSIo3KWasFNVjz3n4WjyOVmMHhUv39x4bBnCQVMN+WJcB/ahXN/b9gUetG9M4r6AlHkIHSkz3SA2HoaVoiEkia8LFoOTSiPM44ukiaxiZHBYdrTO16lerpzRLkUN8X7T3WZghITY3SQpceZ8dng3U3UVw4t1aj8aYMap3SD8RJhpKoKKHx+iX+k5DyU08mSqyhS1yanf2sLHWYl9/1vD6rNwjqxTTYssu/xqp+gAhvevJ/OuIid1Fsn90a8SEvMPD0sF0cMctl4dSpmRuN5OTNRjlrEdlvWI+vbGHGjT9A==|920
+}//0PvA5dehy/4xafvijatWAjt3iEQh3WI7itxtPufVakM+vmtfZdgXCWhtMbcMWSHTIppwarWWXCzgZz7rEMdN26fq5uktto4shWyRSOD68IrnH4sHhHxJ9W+t8iMB4VSIAQ5qNyiijAnbp8okXMYQCe07wSTAFnVdxQ5Guuq2u5lVlEH/Y53tF5NWYkUFkVlgSC4fZJ0kcyuiesIOg8/Ze9vhrywLlVBRJeI6pLycuhP+0tfrtRTCobD/CyNHUC6JxnHQVfyqfnNhGEDkL2+3hGv6QcHfbiq/iLVbS0l1kfFwCbfUg0qKTaHdJp+pQYWJHFHK2tf4X2MXt4gdsL5ez4fwlReKF4sCqTEzJlJosuEEwCubLdaUSIiuu3m6MYfQxI7odwy8pl5TM8kIEznfsNniuzoAWE4Z2kLKut4Boewz8lkaYJ4Edx2AKQ+HdvGWcx6zLHb+cEJ1CBYc2pA6U9zTvebaZOpDwLvnq9QH42eK7g9ndcdUwYB904diWg10SpsIqnp5BV3OO+PuWMlf28wcH/iuCgMqmypMQ0Ug2tVqQm2U5boI4561MJJhU4wbOJkUMRS4TC4YeBP/jKQZk5ABZuYtmuholBephRg1O1DMyE+3Cn39B5C8p3FEGQOTh18adBgaCsmnUhCfyGJKGWqetZ3J9EbtWxWBbiT9km4b6EDseCCJZlfWzg5/DmLsWa0OqtWb13B/h60I/rxcmtNkFhg95Of6dCg6XqtWYOSCrV45aserf3XTjDuezq5tl6787Ny4gM/sR6r9itWitDR9hvrZ9ahpIxJeh1d/Ajm4TggbZpuZHmRNyqMCEpu+8hqDfpuXZM1LpoFRvv3gORWZv2auq+8aGH2fAO8qXBFitu0yWsW2pVKmieilFiFUfkStr7VlzP9S0hS+P90gvQ==|920
