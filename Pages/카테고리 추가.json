@@ -169,7 +169,7 @@
             "ColumnName": "카테고리명"
           },
           "Value": "모두",
-          "Id": "b99555c1-15cd-4351-ae8c-11b45ac737c5"
+          "Id": "0ecfe16d-1bf5-4027-96d7-801cfe7ee6ca"
         },
         "TopCondition": null,
         "ListViewStyleName": "_RS_Medium2"
@@ -207,7 +207,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "020b9cdb-e3af-4494-8659-03083ed646df"
+                  "Id": "0ec26e94-530a-4e5c-bbd6-de1b361916cb"
                 },
                 "CommandList": [
                   {
@@ -228,7 +228,7 @@
                             "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
                             "SerializeProperty": "='카테고리 추가'!R2"
                           },
-                          "Id": "8011aa93-bd12-4ec6-9750-1c30c2d13e3b"
+                          "Id": "6d7b20f4-033c-49d8-a54f-8b8d8558b7d5"
                         },
                         "CommandList": [
                           {
@@ -239,7 +239,7 @@
                             }
                           }
                         ],
-                        "ID": "a9a01439-813e-4d7d-b097-f2bda01ff35d"
+                        "ID": "58e4c58f-5dd3-4abc-9ba1-a93f6fb64dca"
                       },
                       {
                         "CommandList": [
@@ -261,12 +261,12 @@
                             "ParamNameToSaveNewRowValue": "NewRow"
                           }
                         ],
-                        "ID": "11c3de57-3003-42c8-b5ec-a6bbaaad4f8e"
+                        "ID": "3b529bb9-7246-4bbe-b297-ee14d0fc8558"
                       }
                     ]
                   }
                 ],
-                "ID": "bb1d92b6-13d9-44dc-a12b-a977b3fb1f04"
+                "ID": "e17980e3-8317-4359-9b81-d3006af99eec"
               },
               {
                 "CommandList": [
@@ -275,7 +275,7 @@
                     "MessageFormula": "카테고리를 입력해주세요!!!"
                   }
                 ],
-                "ID": "34e1ca8a-dcd1-4ed4-aef9-1e37456e7c03"
+                "ID": "a12562d4-21ca-4598-98a9-4724c9bcd4d1"
               }
             ]
           }
@@ -1332,13 +1332,16 @@
               "Order": 1
             }
           ],
-          "Id": "157eb56d-ddfb-4b69-8217-8d8d5062e36b"
+          "Id": "dbea1f0a-eb65-4634-9cec-8bb9a9bcf0d8"
         },
-        "ID": "01843936765e445883ac290eacfc077e"
+        "ID": "6ae9450841274b9e8fe7be01425631e3"
       }
     ],
     "AuthorizeInfo": {
-      "VisitMode": 2
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator"
+      ]
     },
     "RowBreakLines": [],
     "RepeatRangeSettings": []
@@ -1347,4 +1350,4 @@
     "Margin": {},
     "PaperSize": {}
   }
-}//N6yfvZQ0EQvYX8pQ1XfCWtoxeskrxKrk0eYKT2FiMRwu4mx4FRtmGmL1Cl97dTaJZpLJz+qhrKBK+qia2xrQ4vB0oivXTtna8WDifUhrIVUgQlGe04GFdj+rxI6NstGhGlL1djAXXtXJV5qOOvAMFB9CqA7S3omnwTHGkX0RykfWrTKEJetNJmMYDibQjBA8lsOA7FB89HZu6R//Fg4YiKtRP5FJFIFZx3fdVF81Bw0j+azxNSr9ZWCi84S1W7o4CGQZ6lcEMSQgx8pJj2+d/CjFJjxBnkXrdD+En+LYtTONsZyjLCj/rCsDoZcGMo0bJvF1FP5kDRpzfdGkP9np+0UmIeuz7hfnb0wEKFQK3ciH8pymcSu4JyT5L21KY7YPSDdkHf1U8kYA4oqoHMComRrbdQ0a0A1LDiAsS5vGsUVCrUeGk7v85Dprw8gyPrkSfu00HUMKFvZVGgNz/iCbc/EnedjIGoY3hkgAXEQ2YGQIBtAjvKc58CwU1vx1CyOYG3ELDoLyT0aQDRl7/zYU/91jGvIzJ+qQ4XQH8nJ5uGUrl8VXVVQNQxczeGx7sec5qtryv6/VH0b/0NNvMnZu75GjwIzy9CkkUL3FZXkBC7WGOfFeTwtpUgc2x7S5SvmKMCKT0zsva0EzCDM5XWBBr8LmeLX5uV4XkISvCBlAI73jKixE1gQc53KGUX3KbrP+uVCCYEhSJh8tuNQZKLdhStIcMQSXhUERD5+agNIceATedlK74meeYFWt98g2rr5YhTQC0xnIXP3xzRfgI9qwYGy3gYNmkSMdUoEtuLcSjIf4x+F/P/xz2/y5yihaT86TZEv7No5RiqWEPpd01vnA3R7/KTgGf8mS6wqCUMjPmy8xAvwJ7EWeN6xLp5aIiLIjI3ja60AcsTr1qwtHuwz53w==|920
+}//WIYcBUgCUbzOfdskqFQoegHXyyfsmo1YG4Ty6JWefgNUQKrZ7TgcNtzdWlhi5sYVdLrlfMsLey3jVQq3ml0zocP1N3KRrK2mKo/bIBaWu1IXrU57bm93lMZMjRF5PVX5D5Ndq7CMq33f13NmzW7UdRLkbY2EgdvqUVGNR0SzbBjqq210REOQH0lMhvLq+TerF0DI8kK02juBrUWNqpDHK/TaS4/b/PVbwuuWrgtHEjafdTULddkL4qlVIsQ9RBLMUOHlODd+ltDYiVRkyfmAHqC/6GPzZ7WKtQQTRndWwBsSDMmIKjZCS9iH1taoDLFo/WIlvJhpocY2xt0YRgr+bkw7n0OzqnaDPHt7u4sB7JqDfmRKgrQ7667kx51tPaiIs8IWBgEAcLvhoi18hHT3X19uhtyuqOn9eIIdUZuULPKfCE4ZnGnBHqhZGph5qCsgk5MplAz9z85c7QrW0AZE7p3Qv2+mE7VAAv6eJ+VjRg3R2HHiaJPgJq7M0ECEnv5e/R7Ran9JryypvkPz5EchmXB25pady13q3UBNfHR3eocx/zLkxZHKoKvQOPvVyxIbpGxd6APKKJPr1Xihgci0X7H+nC+StTIc7L1rRj5hBsYZmu6X5JrmFxdcPRqC+busGd1MW+ss4ZjiAedTnvA8kNyGHBVYibDFzjxg11KWECGXLTOdmTy4r0zU7NZCE3DGlHLenNgYSo8djhqP0qG/0wBj+euPHd513SSJivonetpcRlHbp82UDKIP+Vml4d3RwL5mMZEdXqZ6WhROdAlsDUfaZskPcGCzHaa8v0zaMPJV+2Nv0PCVgEljYbG+KMXgXv4uANc+b4OYkE8U1SMXD4OMBKB4Za6Nbcb+JkhROQ7zL0UGqZmIDitx0ObJFgs8cf84JCDtz0AzqLl3VTOv8g==|920
