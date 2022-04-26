@@ -1,0 +1,624 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 5.0
+        }
+      }
+    },
+    "Count": 3,
+    "DefaultSize": 5.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 10.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "IsHidden": true
+        }
+      }
+    },
+    "InLogicalVisibleIndexes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "Count": 20,
+    "DefaultSize": 30.0
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!Q2"
+                      }
+                    ]
+                  },
+                  "value": "모두",
+                  "Id": "dccc7a25-13bd-458a-84cf-e8bf0efa1754"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "즐겨찾기_테이블",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 7,
+                      "ColumnBindingInfo": {
+                        "TableName": "즐겨찾기_테이블",
+                        "ColumnName": "카테고리"
+                      },
+                      "Value": "모두",
+                      "Id": "28b36fa6-f56d-49f4-be00-71b4855f7353"
+                    },
+                    "Params": [],
+                    "ID": "2a8d6d054b5543618fd4aa8298e49479"
+                  }
+                ],
+                "ID": "d5bccc63-207a-49c6-8b39-b69c188311f8"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "월",
+                          "Id": "9eb6e6f4-56d6-4baf-9f9c-ee7a1ab50c99"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "월_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!I2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "0bf197c5-5566-4282-be66-c1978aa05f48"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "화",
+                          "Id": "d70fd2b9-83f6-439e-a05a-0277a589a138"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "화_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!J2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "2d12f434-69a8-4374-a0a6-897532223832"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "수",
+                          "Id": "401667d1-4109-4aac-9ff2-c77df52236a6"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "수_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!K2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "d9bdd383-ec52-4af5-ad34-822938639750"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "목",
+                          "Id": "3090cabb-f023-446a-895c-abfb842c5e73"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "목_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!L2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "c68f5655-20fc-4c14-b5d9-9af65978e6eb"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "금",
+                          "Id": "944eac05-7fd6-404c-8ff7-a3709a6a4c65"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "금_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!M2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "cf084441-dfe3-4c80-acf9-93a1b033f956"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "토",
+                          "Id": "42aaeb50-65fc-4ed0-99d7-e9619e831b9b"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "토_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!N2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "a5a6405f-8bda-4ccd-a895-7f24128e9474"
+                      },
+                      {
+                        "Condition": {
+                          "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                          "param": {
+                            "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                            "cellLocations": [
+                              {
+                                "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!P2"
+                              }
+                            ]
+                          },
+                          "value": "일",
+                          "Id": "f6b83edb-dc5a-4bfd-923b-4488f78d3093"
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                            "TableName": "카테고리_테이블",
+                            "ShowConfirm": false,
+                            "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "일_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!O2+1"
+                                }
+                              },
+                              {
+                                "ColumnName": "주_클릭",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                                  "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!R2+1"
+                                }
+                              }
+                            ]
+                          }
+                        ],
+                        "ID": "a8992de6-e1cb-4a72-a466-acfeb0887d7c"
+                      },
+                      {
+                        "CommandList": [],
+                        "ID": "e84274e3-31f3-4e3a-81c1-a73ef08478c1"
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                    "TableName": "카테고리_테이블",
+                    "ShowConfirm": false,
+                    "ConfirmText": "데이터를 업데이트하시겠습니까?",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "주_클릭",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                          "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!S2+1"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "$type": "Forguncy.Model.QueryCommand, ServerDesignerCommon",
+                    "TargetTableName": "즐겨찾기_테이블",
+                    "SqlCondition": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "TableName": "즐겨찾기_테이블",
+                        "ColumnName": "카테고리"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "='4caa8cb4-509f-4268-9a8a-5defc194b13d'!Q2"
+                      },
+                      "Id": "68480f46-1e40-41b3-8e16-07f5d3d85b8e"
+                    },
+                    "Params": [
+                      "=Q2"
+                    ],
+                    "ID": "444733374558462a9eda30010a22af2b"
+                  }
+                ],
+                "ID": "71580c93-c00a-4330-ac7b-66d77529fdc1"
+              }
+            ]
+          }
+        ],
+        "TemplateKey": "스타일9"
+      },
+      "TemplateCellSource": "카테고리명"
+    },
+    "1,8": {
+      "TemplateCellSource": "월_클릭"
+    },
+    "1,9": {
+      "TemplateCellSource": "화_클릭"
+    },
+    "1,10": {
+      "TemplateCellSource": "수_클릭"
+    },
+    "1,11": {
+      "TemplateCellSource": "목_클릭"
+    },
+    "1,12": {
+      "TemplateCellSource": "금_클릭"
+    },
+    "1,13": {
+      "TemplateCellSource": "토_클릭"
+    },
+    "1,14": {
+      "TemplateCellSource": "일_클릭"
+    },
+    "1,15": {
+      "TemplateCellSource": "요일"
+    },
+    "1,16": {
+      "TemplateCellSource": "카테고리"
+    },
+    "1,18": {
+      "TemplateCellSource": "SUM"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333333333332,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center"
+      ]
+    },
+    "CellStyles": {
+      "0,0": 0,
+      "0,1": 0,
+      "0,2": 0,
+      "0,5": 0,
+      "0,6": 0,
+      "0,17": 0,
+      "1,0": 0,
+      "1,1": 1,
+      "1,2": 2,
+      "1,5": 2,
+      "1,6": 2,
+      "1,7": 3,
+      "1,8": 3,
+      "1,9": 3,
+      "1,10": 3,
+      "1,11": 3,
+      "1,12": 3,
+      "1,13": 3,
+      "1,14": 3,
+      "1,15": 3,
+      "1,16": 3,
+      "1,17": 0,
+      "2,0": 0,
+      "2,1": 0,
+      "2,2": 0,
+      "2,5": 0,
+      "2,6": 0,
+      "2,17": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 0,
+      "FontSize": 12.0,
+      "HorizontalAlignment": 1
+    }
+  },
+  "Spans": [
+    "1,1,1,6"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.TemplatePage, ServerDesignerCommon",
+    "ParentPageName": "즐겨찾기"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//INloiYI4IrezyBmd9d4QzEnMAPAUULJBqHZAQHc2+7JvrqL+ZzhPhheL+v8TKs214cohyYRX8eoD8IB0d4eYIDm1PFUKbo+6T3uUYRvvyHYxBsp4Lif5XQgCe9ncYNMF+Q2X1e7EWpSvqgrWbr6d4F3+GN8f7uBmQN2VLH+UGnJhD8Ga/xkuTByP40w1DHR1v6aiNQXHvL3iMLtUwgRqG8z4QpwfxlUhg8IC+ThxBZWLThULO9Q769BPEAxgM+ZeazxLcNFxdSkQomPv704ElqsztBZe18njBTskDBm2UD09rMd+9+0iTWbY4TGcHQv+DAfpO6ZOLDO9yRuf64bFcAS8486yLhUA4+bTRwdroB/6OqHPDHGbp0/ks8PyC7eLcJdqE73X7MSaVGxa691Ch1BB3cr5olp/sFGSIpaPbn+EVfLidpPf3i+EDBGKRf2t4UQV7f1Y/kNOrj11C5Nvyz9Z2BtDLPnDXw+Sba1Aa97x89SWg7frj+ZzuL+B2yISx+OaNlfrXvnOG+M1y13ViYU7Kllc8HlRnCXGsfMGAqTMcWqp3I+eMiFmfXDNg5B/X1j0p1zsJoxutXkxaTQj8ar5ArM2scOAHq+SgP9H/bUbraQOYFRvORqkXY+XyoItjREHK5bHoKgF9NGgyE6A2awTgEcwPlmPVLZuu+X40NEj0NiKlwCjk+WuJmiBKF6chmGWzlro3NKnvcKu5FbR4S4MQux0mZgSt0IC++ciNA+DxYjT2LtM056WzSZ+tb7ymxMWKMMFOuIoj2rodg976ic+ryReA6CMPVSW7TnTFUokta0lNW8NhcKG6Qu28VXbmj+auNqvSKm2YHoob/vNihKPT3qgQBDqmWCXawr3YVMlRhuOk7OihWwnPJawZ6bnRzlTwz+btmvDLwPtvOfrQA==|920

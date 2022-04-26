@@ -1,0 +1,466 @@
+{
+  "Description": "매일 이전 주 해당 요일의 클릭 수 를 초기화",
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.DailyScheduleTrigger, ServerDesignerCommon",
+      "StartDateTime": 44678.0
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+      "ConditionAndCommandPairList": [
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "1",
+            "Id": "f69ecd15-e760-45f1-96fe-34d80371ed5f"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "4a95e62a-490f-452d-97e0-3cdb54bd837f"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "월_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "defcedde-12e8-4010-a2b6-969edc87d5df"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "월_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "dcfeb191-a00e-4c53-ab46-60a6cb46e22e"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "2",
+            "Id": "0d1e0023-8031-4299-bd1f-5aaa8ab573b5"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "b3179d06-dcd6-4b3e-8d61-530a1304f4cf"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "화_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "d4bb31f9-e823-459e-9444-52bb399f8a7b"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "화_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "76f44b5a-acd5-420d-8000-a1a63eecf145"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "3",
+            "Id": "0de8f5be-1723-42ee-9f20-f9ac9bdd3944"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "be2fa9b1-5edd-4640-ab26-c714ca19ae48"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "수_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "c196c124-cc15-4d22-82ba-e8a65eb3162b"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "수_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "9e3ed003-0004-4d06-a7fa-ad3952ae74c6"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "4",
+            "Id": "0f4cdaa4-c874-407e-8989-459ed3064ea0"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 2,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "cb85ce64-4a76-4faf-a2c5-12969fe018b7"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "목_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "8e9156fb-8ea1-4c25-a1d6-6b19a9f78858"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "목_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "d55afe59-a2d1-4d67-b006-7a87417ebbeb"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "5",
+            "Id": "4d461848-76c6-473e-8bd5-7cb37d2c5532"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "deadc0c9-c3dd-46b5-9eb1-2f80cff5bbc2"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "금_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "5111ab17-d8d8-4a2d-b3fb-3d0221e44d53"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "금_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "173ce410-df01-4735-a97d-ff292eeef4bc"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "6",
+            "Id": "f3466e6d-3d0c-4a59-bafb-8d6de4900f66"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "f61ecb7f-416d-4603-99c2-4426ba791bad"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "토_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "731d5d7a-2ad3-4dd8-bbcf-a10832e80b61"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "토_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "fd5cb5fa-cdfa-489a-b370-47209e1d391a"
+        },
+        {
+          "Condition": {
+            "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+            "param": {
+              "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+              "ParamObject": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=WEEKDAY(TODAY(),2)"
+              }
+            },
+            "value": "7",
+            "Id": "acfa263c-4206-46e6-a859-c774316db6eb"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "즐겨찾기_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "즐겨찾기_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "2e7ade83-a9fe-457d-91b7-83883922ab32"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "일_클릭",
+                  "Value": "0"
+                }
+              ],
+              "ParamNameToSaveNewRowValue": "NewRow"
+            },
+            {
+              "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+              "TableName": "카테고리_테이블",
+              "ShowConfirm": false,
+              "ConfirmText": "데이터를 업데이트하시겠습니까?",
+              "RowsToUpdate": 1,
+              "RowsToUpdateCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "CompareType": 1,
+                "ColumnBindingInfo": {
+                  "TableName": "카테고리_테이블",
+                  "ColumnName": "ID"
+                },
+                "Value": "%Null%",
+                "Id": "8df39a25-aa80-4ed1-b926-5aaef00ba5ca"
+              },
+              "UpdateValues": [
+                {
+                  "ColumnName": "일_클릭",
+                  "Value": "0"
+                }
+              ]
+            }
+          ],
+          "ID": "6c1eb955-c091-46b9-8b36-eef040956ce8"
+        }
+      ]
+    }
+  ],
+  "Name": "매주 리셋"
+}
